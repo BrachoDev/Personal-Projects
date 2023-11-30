@@ -45,12 +45,12 @@ form textarea {
     box-sizing: border-box;
     margin-bottom: 10px;
 }
-form button {
-    background-color: rgb(245, 242, 238);
-    color: rgba(94, 37, 23, 0.623);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: large; 
+button {
+    display: block;
+    margin: 40px auto;
+    width: 40%;
+    padding: 15px;
+    font-size: 23px;
+    background: white;
+    border: 3px solid rgb(175, 79, 56);
 }
