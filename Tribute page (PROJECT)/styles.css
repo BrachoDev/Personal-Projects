@@ -1,0 +1,69 @@
+h1 {
+    padding-top: 40px;
+}
+
+figcaption {
+    margin: 15px 0 5px 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Consolas', monospace;
+}
+
+main {
+    background-color: #b9daf7;
+    border-radius: 0.5rem;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    margin: 20px 0;
+    padding-bottom: 10px;
+}
+
+section {
+    background-color: #eee;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+img {
+    max-width: 100%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 0.5rem;
+    border: 2px solid;
+}
+
+.img-div {
+    text-align: center;
+    padding: 15px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    line-height: 1.9;
+}
+
+blockquote {
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+a {
+    color: rgb(0, 174, 255);
+}
+
+a:hover {
+    color: rgb(238, 202, 125);
+}
