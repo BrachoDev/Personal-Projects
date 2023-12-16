@@ -1,0 +1,130 @@
+* {
+  scroll-behavior: smooth;
+}
+
+/* Body Styles */
+body {
+  font-family: "Playfair Display", serif;
+  min-width: 290px;
+  background-color: rgb(250, 250, 250);
+  color: #323333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Main Section Header Styles */
+.main-section header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Article Styles */
+article {
+  font-size: 20px;
+}
+
+/* Code Styles */
+code {
+  border: 4px solid #1b1b1a;
+  display: block;
+  background-color: rgb(218, 218, 218);
+  padding: 0.7em;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: fit-content;
+}
+
+/* Main Document Styles */
+#main-doc {
+  position: absolute;
+  margin-left: 350px;
+  padding: 20px;
+  margin-bottom: 210px;
+}
+
+#main-doc a {
+  color: #323333;
+  font-weight: bold;
+}
+
+/* Navbar Styles */
+#navbar {
+  background-color: rgb(219, 216, 211);
+  position: fixed;
+  border-right: solid;
+  border-color: #000000;
+  padding: 0;
+  min-width: 290px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+}
+
+#navbar header {
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#navbar ul {
+  list-style: none;
+  height: 88%;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  font-size: 20px;
+  border-top: 1px solid;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#navbar a {
+  display: block;
+  text-decoration: none;
+  color: #4b4b4b;
+  padding: 10px 30px;
+}
+
+/* Responsive Styles for Screens <= 815px */
+
+@media only screen and (max-width: 815px) {
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+
+  #navbar {
+    background-color: rgb(219, 216, 211);
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 282px;
+    border-right: none;
+    border-bottom: 2px solid #000000;
+  }
+
+  #navbar ul {
+    border-top: 1px solid;
+    height: 207px;
+    overflow-y: auto;
+  }
+
+  #navbar li {
+    width: 100%;
+  }
+
+  code {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
