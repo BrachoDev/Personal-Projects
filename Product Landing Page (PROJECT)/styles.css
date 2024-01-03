@@ -1,0 +1,234 @@
+* {
+  scroll-behavior: smooth;
+}
+
+header img {
+  max-width: 180px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  font-weight: 800;
+  border-bottom: 2px solid rgb(104, 104, 104);
+  background-color: rgb(252, 244, 197);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo,
+#nav-bar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#nav-bar li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 60px;
+}
+
+#nav-bar a:hover {
+  color: #74724b;
+  text-decoration: underline;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6.6rem;
+  height: 100%;
+}
+
+.text {
+  max-width: 45%;
+}
+
+.text u {
+  color: rgb(252, 248, 1);
+}
+
+.image {
+  padding-top: 10px;
+  margin-left: 15%;
+}
+
+.image img {
+  height: auto;
+  width: 100%;
+  max-width: 350px;
+  background-color: antiquewhite;
+  border: 4px solid rgb(230, 101, 101);
+  border-radius: 40%;
+}
+
+.deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fc1111;
+  width: 100%;
+  color: rgb(253, 253, 253);
+}
+
+.deals h1 {
+  font-size: 75px;
+  width: 100%;
+}
+
+.top-three-foods {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.top-three-foods ul {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.top-three-foods li {
+  font-size: 30px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.top-three-foods img {
+  width: 100%;
+  vertical-align: middle;
+  height: 300px;
+  max-width: 400px;
+}
+
+.drink {
+  text-align: center;
+}
+
+.drink .title {
+  background-color: rgb(253, 253, 109);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pineapple-image {
+  background-color: #fcfab4;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Pineapple-image img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 30px;
+}
+
+.know-more {
+  padding-top: 10px;
+  color: white;
+  background-color: #fc1111;
+}
+
+.video {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  padding-bottom: 40px;
+}
+
+form {
+  padding-top: 10px;
+  width: 100%;
+  background-color: #7debd3;
+  padding-bottom: 20px;
+}
+
+form h2 {
+  color: #fdf507;
+  text-align: center;
+  text-decoration: underline;
+}
+
+form .email-input {
+  text-align: center;
+}
+
+.email-input #submit {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 17px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: #fcf88f;
+  border-radius: 3px;
+  width: 200px;
+}
+
+#email {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: #f8f000;
+}
+
+@media screen and (max-width: 800px) {
+  .deals {
+    padding-top: 10px;
+    display: block;
+  }
+
+  .text h1 {
+    width: 100%;
+    margin: auto 15px;
+    font-size: 8vh;
+  }
+
+  .text h3 {
+    font-size: 3vh;
+    width: 100%;
+    margin: auto 30px;
+  }
+
+  .video {
+    height: 60vw;
+  }
+}
