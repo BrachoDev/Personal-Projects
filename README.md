@@ -1,2 +1,2 @@
 # Projects
-Here I post my FCC and personal projects. Have an amazing day coding!
+Here I post my FCC projects. Have an amazing day coding!
